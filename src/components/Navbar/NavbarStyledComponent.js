@@ -48,7 +48,7 @@ export const NavItems = styled.ul`
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: 32px;
+    gap: 16px;
     padding: 0 6px;
     list-style: none;
 

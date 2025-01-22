@@ -2,7 +2,10 @@ import styled from 'styled-components';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { FaEnvelope } from 'react-icons/fa';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { SiLeetcode,SiCodechef } from 'react-icons/si';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -96,12 +99,15 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-        </SocialMediaIcons>
+       <SocialMediaIcons>
+   <SocialMediaIcon href={Bio.leetcode} target="display"><SiLeetcode /></SocialMediaIcon>
+   <SocialMediaIcon href={Bio.codechef} target="display"><SiCodechef /></SocialMediaIcon>
+   <SocialMediaIcon href={Bio.whatsApp} target="display"><WhatsAppIcon /></SocialMediaIcon>
+   <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+   <SocialMediaIcon href={Bio.email} target="display"><FaEnvelope /></SocialMediaIcon>
+   <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+</SocialMediaIcons>
+
         <Copyright>
           &copy; 2025 Rohith Saindla. All rights reserved.
         </Copyright>

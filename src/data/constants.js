@@ -10,8 +10,11 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1NIlgQX24W6FBhmgPP-RzwS6TfEh8bXCf/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rohith-saindla-831666258/",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  codechef:"https://www.codechef.com/users/rohiths_44",
+  insta: "https://www.instagram.com/_rohit__0_7/",
+  whatsApp:"https://wa.me/+91%209014850368",
+  leetcode: "https://leetcode.com/u/Rohith_07/",
+  email:"mailto:rohithsaindla11@gmail.com"
 };
 
 export const skills = [
