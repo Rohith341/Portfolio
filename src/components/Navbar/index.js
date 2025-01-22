@@ -1,9 +1,6 @@
 import React from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
-import { AiOutlineRocket } from 'react-icons/ai';
 import { FaLaptopCode } from 'react-icons/fa';
-import { HiOutlineCode } from 'react-icons/hi';
-import { SiJavascript } from 'react-icons/si';
 
 
 
@@ -19,9 +16,20 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
       <NavLogo to='/'>
-  <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-    <FaLaptopCode size="1.8rem" /> <Span> Rohith Portfolio</Span>
-  </a>
+      <a 
+  href='/' 
+  style={{ 
+    display: "flex", 
+    alignItems: "center", 
+    color: "white", 
+    marginBottom: '0px', 
+    cursor: 'pointer', 
+    textDecoration: 'none' // This removes the underline
+  }}
+>
+  <FaLaptopCode size="1.8rem" /> <Span>Rohith Portfolio</Span>
+</a>
+
 </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
