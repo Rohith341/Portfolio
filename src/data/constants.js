@@ -83,10 +83,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
+      
       {
         name: "MongoDB",
         image:
@@ -112,11 +109,7 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      
       {
         name: "Netlify",
         image:
@@ -127,15 +120,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+    
       {
-        name: "Postman",
+        name: "MERN Stack",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzA72xLvnMJ4eln6FvJ0QFIneZ5LTwYVuPw&s",
       },
       
     ],
@@ -162,6 +151,45 @@ export const experiences = [
   },
   
 ];
+
+// export const certificates=[
+//   {
+//     id: 0,
+//     img: "https://media.licdn.com/dms/image/v2/C560BAQFKt8O5GdaFjw/company-logo_200_200/company-logo_200_200/0/1680080095222/vnr_vignanajyothiinstituteofengineeringandtechnology_logo?e=2147483647&v=beta&t=nV3OFiSPyeDZdeZib-pHBlNwN-i1S73KwQljcRw3FvY",
+//     school: "VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad",
+//     date: "Aug 2023 - Sep 2026",
+//     grade: "8.71 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 0,
+//     img: "https://media.licdn.com/dms/image/v2/C560BAQFKt8O5GdaFjw/company-logo_200_200/company-logo_200_200/0/1680080095222/vnr_vignanajyothiinstituteofengineeringandtechnology_logo?e=2147483647&v=beta&t=nV3OFiSPyeDZdeZib-pHBlNwN-i1S73KwQljcRw3FvY",
+//     school: "VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad",
+//     date: "Aug 2023 - Sep 2026",
+//     grade: "8.71 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 0,
+//     img: "https://media.licdn.com/dms/image/v2/C560BAQFKt8O5GdaFjw/company-logo_200_200/company-logo_200_200/0/1680080095222/vnr_vignanajyothiinstituteofengineeringandtechnology_logo?e=2147483647&v=beta&t=nV3OFiSPyeDZdeZib-pHBlNwN-i1S73KwQljcRw3FvY",
+//     school: "VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad",
+//     date: "Aug 2023 - Sep 2026",
+//     grade: "8.71 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 0,
+//     img: "https://media.licdn.com/dms/image/v2/C560BAQFKt8O5GdaFjw/company-logo_200_200/company-logo_200_200/0/1680080095222/vnr_vignanajyothiinstituteofengineeringandtechnology_logo?e=2147483647&v=beta&t=nV3OFiSPyeDZdeZib-pHBlNwN-i1S73KwQljcRw3FvY",
+//     school: "VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad",
+//     date: "Aug 2023 - Sep 2026",
+//     grade: "8.71 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+// ];
 
 export const education = [
   {
@@ -196,19 +224,13 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "WrokShop Automation",
+    date: "Jun 2024 - sep 2024",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+     "Developed a platform to automate workshop management with features like scheduling, participant tracking, and file uploads. Integrated secure authentication and dynamic data handling for efficient operations.Enhanced scalability and streamlined processes for managing multiple workshops effectively.",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
       "React Js",
       "MongoDb",
       "Node Js",
@@ -221,30 +243,32 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Podstream",
+    title: "Blog Application",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+         " Developed a full-stack blogging platform with features like user authentication, dynamic content management, and scalable backend architecture. Optimized database performance to support over 100 active users and achieved a 95% user satisfaction rate.",
+
+      //"Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    // member: [
+    //   {
+    //     name: "Rishav Chanda",
+    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //     github: "https://github.com/rishavchanda/",
+    //   },
+    //   {
+    //     name: "Upasana Chaudhuri",
+    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+    //     github: "https://github.com/upasana0710",
+    //   },
+    // ],
   },
   {
     id: 1,
@@ -266,41 +290,18 @@ export const projects = [
     github: "https://github.com/rishavchanda/Project-Management-App",
     webapp: "https://vexa-app.netlify.app/",
   },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
+ 
   {
     id: 3,
-    title: "Buckoid",
+    title: "Image Caption Generation",
     date: "Dec 2021 - Apr 2022",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+    "Developed an AI-based system to generate descriptive captions for images using deep learning and natural language processing. Designed and trained a CNN-LSTM model for accurate image understanding and captioning. Achieved high accuracy and efficiency in generating contextually relevant captions.",
+
+
+      //"App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://miro.medium.com/v2/resize:fit:1400/1*nGnrxFYs7CTtUHjILoi41g.png",
     tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
     category: "android app",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
