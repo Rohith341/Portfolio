@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton, BackgroundText } from './HeroStyle'
 import HeroImg from '../../images/Rohith.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -12,7 +12,13 @@ const HeroSection = () => {
                 <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg>
-                <HeroInnerContainer >
+
+                {/* Background text container */}
+                <BackgroundText>
+                    Eat(); <br />Sleep();<br></br> Code(); <br /> Repeat();<br/>
+                </BackgroundText>
+
+                <HeroInnerContainer>
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
@@ -27,19 +33,17 @@ const HeroSection = () => {
                                 />
                             </Span>
                         </TextLoop>
-                        <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <SubTitle><br />{Bio.description}</SubTitle>
+                        <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
-
             </HeroContainer>
         </div>
-    )
+    );
 }
 
-export default HeroSection
+export default HeroSection;
