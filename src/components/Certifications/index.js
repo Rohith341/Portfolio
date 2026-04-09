@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle';
 import CertificationCard from '../Cards/CertificationCard';
 import ML from './ML.png';
@@ -39,7 +39,6 @@ export const certificates = [
 ];
 
 const CertificationPage = () => {
-  const [toggle] = useState('all');
   return (
     <Container id="certifications">
       <Wrapper>

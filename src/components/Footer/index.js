@@ -1,9 +1,6 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { FaEnvelope } from 'react-icons/fa';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { SiLeetcode,SiCodechef } from 'react-icons/si';
 import { Bio } from '../../data/constants';

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton, BackgroundText } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton, BackgroundText } from './HeroStyle'
 import HeroImg from '../../images/Rohith.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -13,7 +13,7 @@ const roleColors = [
 ];
 
 const HeroSection = () => {
-    const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+    const [, setCurrentRoleIndex] = useState(0);
     const [currentColor, setCurrentColor] = useState(roleColors[0]);
 
     useEffect(() => {
@@ -46,7 +46,7 @@ const HeroSection = () => {
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
-                            <b>-> </b>
+                            <b>a </b>
                             <Span currentColor={currentColor}>
                                 <Typewriter
                                     options={{
