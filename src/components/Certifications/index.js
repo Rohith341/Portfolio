@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle';
 import CertificationCard from '../Cards/CertificationCard';
+import ML from './ML.png';
+import TATA from './TATA.png';
+import infosys from './infosys.png';
 
 export const certificates = [
   {
@@ -11,7 +14,7 @@ export const certificates = [
   },
   {
     id: 2,
-    image: "https://media.licdn.com/dms/image/v2/D5622AQH4NC9Y53F0Tg/feedshare-shrink_1280/feedshare-shrink_1280/0/1702702920413?e=1740614400&v=beta&t=Soul7OGdDO0Hg5TmAaQK5TeSbRz6P1K7Z9OMej2K70k",
+    image: ML,
     title: "Introduction to AI & ML-INFOSYS SPRINGBOARD",
     link: "https://drive.google.com/file/d/1M1z9yXcOZs6gwE49FPMMTTreYhpzpWEj/view?usp=sharing"
   },
@@ -23,13 +26,13 @@ export const certificates = [
   },
   {
     id: 4,
-    image: "https://media.licdn.com/dms/image/v2/D4E22AQHNsTVcQMwhew/feedshare-shrink_800/B4EZSKOf2vHMAk-/0/1737485844929?e=1740614400&v=beta&t=Z_J9rXPWdlL0urtskuySeaLbf_KlV00RM3zFxLiI3vk",
+    image: TATA,
     title: "Cyber Security - Microsoft CyberSuraksha",
     link: "https://drive.google.com/file/d/1JJBK_XeE-ysMDES8CggOiQE7CabA80QD/view?usp=sharing"
   },
   {
     id: 5,
-    image: "https://media.licdn.com/dms/image/v2/D4E22AQFSdSDK2LIzxA/feedshare-shrink_2048_1536/B4EZSKTqlfGwAo-/0/1737487199408?e=1740614400&v=beta&t=IfFOQXsf8tZ0hOjsllVHdnu61qwM3mr81vkGTwUNZe4",
+    image: infosys,
     title: "Introduction to Data Science - INFOSYS",
     link: "https://drive.google.com/file/d/1S4v1JXSi-MyzSLX00DX1x6oEocP0b-cW/view?usp=sharing"
   }

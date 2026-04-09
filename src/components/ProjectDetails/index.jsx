@@ -52,16 +52,82 @@ const Date = styled.div`
     }
 `
 
-
-
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
+    line-height: 1.6;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
         margin: 6px 6px;
+    }
+`;
+
+const SectionTitle = styled.div`
+    font-size: 20px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.primary};
+    margin: 20px 6px 10px 6px;
+    border-bottom: 2px solid ${({ theme }) => theme.primary + 30};
+    padding-bottom: 5px;
+    @media only screen and (max-width: 600px) {
+        font-size: 18px;
+        margin: 16px 6px 8px 6px;
+    }
+`;
+
+const FeatureList = styled.ul`
+    margin: 8px 6px;
+    padding-left: 20px;
+    color: ${({ theme }) => theme.text_primary};
+    @media only screen and (max-width: 600px) {
+        margin: 6px 6px;
+        padding-left: 16px;
+    }
+`;
+
+const FeatureItem = styled.li`
+    font-size: 15px;
+    font-weight: 400;
+    margin: 8px 0;
+    line-height: 1.5;
+    color: ${({ theme }) => theme.text_secondary};
+    @media only screen and (max-width: 600px) {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+`;
+
+const TechGrid = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 8px 6px;
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 8px;
+        margin: 6px 6px;
+    }
+`;
+
+const TechItem = styled.div`
+    background: ${({ theme }) => theme.primary + 15};
+    border: 1px solid ${({ theme }) => theme.primary + 40};
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.primary};
+    transition: all 0.3s ease;
+    &:hover {
+        background: ${({ theme }) => theme.primary + 25};
+        transform: translateY(-2px);
+    }
+    @media only screen and (max-width: 600px) {
+        font-size: 12px;
+        padding: 6px 10px;
     }
 `;
 
@@ -206,6 +272,46 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
+                    
+                    {/* Key Features Section */}
+                    <SectionTitle>Key Features</SectionTitle>
+                    <FeatureList>
+                        {project?.features?.map((feature, index) => (
+                            <FeatureItem key={index}>{feature}</FeatureItem>
+                        )) || (
+                            <>
+                                <FeatureItem>Full-stack development with modern technologies</FeatureItem>
+                                <FeatureItem>Responsive design for mobile and desktop</FeatureItem>
+                                <FeatureItem>Optimized performance and user experience</FeatureItem>
+                                <FeatureItem>Scalable architecture for future enhancements</FeatureItem>
+                            </>
+                        )}
+                    </FeatureList>
+                    
+                    {/* Technical Implementation */}
+                    <SectionTitle>Technical Implementation</SectionTitle>
+                    <TechGrid>
+                        {project?.tags?.map((tech, index) => (
+                            <TechItem key={index}>{tech}</TechItem>
+                        ))}
+                    </TechGrid>
+                    
+                    {/* Challenges & Solutions */}
+                    <SectionTitle>Challenges & Solutions</SectionTitle>
+                    <Desc>
+                        {project?.challenges || (
+                            "This project involved overcoming various technical challenges including architecture design, performance optimization, and ensuring a seamless user experience across different devices and platforms. The solution required careful planning and iterative development to achieve the desired functionality and quality standards."
+                        )}
+                    </Desc>
+                    
+                    {/* Project Impact */}
+                    <SectionTitle>Project Impact</SectionTitle>
+                    <Desc>
+                        {project?.impact || (
+                            "Successfully delivered a comprehensive solution that addresses key user needs and demonstrates strong technical capabilities. The project showcases expertise in modern development practices and commitment to creating high-quality, user-centric applications."
+                        )}
+                    </Desc>
+                    
                     {project.member && (
                         <>
                             <Label>Members</Label>
@@ -226,8 +332,8 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button /*dull href={project?.github}*/ target='new'>View Code</Button>
-                        <Button /*href={project?.webapp}*/ target='new'>View Live App</Button>
+                        <Button dull href={project?.github} target='new'>View Code</Button>
+                        <Button href={project?.webapp} target='new'>View Live App</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>

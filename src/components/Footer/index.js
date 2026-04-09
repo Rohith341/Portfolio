@@ -102,7 +102,7 @@ function Footer() {
        <SocialMediaIcons>
    <SocialMediaIcon href={Bio.leetcode} target="display"><SiLeetcode /></SocialMediaIcon>
    <SocialMediaIcon href={Bio.codechef} target="display"><SiCodechef /></SocialMediaIcon>
-   <SocialMediaIcon href={Bio.whatsApp} target="display"><WhatsAppIcon /></SocialMediaIcon>
+   {/* //<SocialMediaIcon href={Bio.whatsApp} target="display"><WhatsAppIcon /></SocialMediaIcon> */}
    <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
    <SocialMediaIcon href={Bio.email} target="display"><FaEnvelope /></SocialMediaIcon>
    <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
